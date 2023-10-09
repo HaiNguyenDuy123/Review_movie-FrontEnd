@@ -44,7 +44,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
   return (
     <Container>
         <Row>
-            <Col><h3>Reviews</h3></Col>
+            <Col><h3>Đánh giá phim</h3></Col>
         </Row>
         <Row className="mt-2">
             <Col>
@@ -55,7 +55,7 @@ const Reviews = ({getMovieData,movie,reviews,setReviews}) => {
                     <>
                         <Row>
                             <Col>
-                                <ReviewForm handleSubmit={addReview} revText={revText} labelText = "Write a Review?" />  
+                                <ReviewForm handleSubmit={addReview} revText={revText} labelText = "Đánh giá phim:" />  
                             </Col>
                         </Row>
                         <Row>

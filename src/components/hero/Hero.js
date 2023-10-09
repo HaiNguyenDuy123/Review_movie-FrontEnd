@@ -42,7 +42,7 @@ const Hero = ({movies}) => {
                                         </Link>
 
                                         <div className="movie-review-button-container">
-                                            <Button variant ="info" onClick={() => reviews(movie.imdbId)} >Reviews</Button>
+                                            <Button variant ="info" onClick={() => reviews(movie.imdbId)} >Đánh Giá Phim</Button>
                                         </div>
                                     </div>
                                 </div>
